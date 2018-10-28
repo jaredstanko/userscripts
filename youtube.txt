@@ -1,0 +1,18 @@
+! Youtube - No homepage videos
+www.youtube.com###contentContainer
+
+! Youtube - No left side menu
+www.youtube.com##ytd-browse.ytd-page-manager.style-scope
+
+! Youtube - No suggested videos on the right side
+www.youtube.com###secondary
+
+! Youtube - No comments
+www.youtube.com###comments
+
+! Youtube - Stop next up and auto play
+/endscreen.js$script,domain=www.youtube.com
+
+! Youtube - Hide buttons to other Youtube sections
+www.youtube.com###buttons
+www.youtube.com###guide-button
