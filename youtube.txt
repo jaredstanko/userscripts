@@ -1,3 +1,5 @@
+# Youtube Sanity Userscript
+
 ! Youtube - No homepage videos
 www.youtube.com###contentContainer
 
