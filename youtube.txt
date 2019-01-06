@@ -1,4 +1,8 @@
-# Youtube Sanity Userscript
+! Title: Youtube Sanity Userscript - JCS
+! Description: Block annoying web elements on YouTube.
+! Expires: 24 hours
+! Version: 0.0.1
+! Last updated: 2019-01-06
 
 ! Youtube - No homepage videos
 www.youtube.com##ytd-browse[page-subtype="home"] #dismissable
