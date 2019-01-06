@@ -1,10 +1,14 @@
 # Youtube Sanity Userscript
 
 ! Youtube - No homepage videos
-www.youtube.com###contentContainer
+www.youtube.com##ytd-browse[page-subtype="home"] #dismissable
 
 ! Youtube - No left side menu
-www.youtube.com##ytd-browse.ytd-page-manager.style-scope
+www.youtube.com###guide-wrapper
+
+! Youtube - Hide buttons to other Youtube sections
+www.youtube.com###buttons
+www.youtube.com###guide-button
 
 ! Youtube - No suggested videos on the right side
 www.youtube.com###secondary
@@ -14,7 +18,3 @@ www.youtube.com###comments
 
 ! Youtube - Stop next up and auto play
 /endscreen.js$script,domain=www.youtube.com
-
-! Youtube - Hide buttons to other Youtube sections
-www.youtube.com###buttons
-www.youtube.com###guide-button
